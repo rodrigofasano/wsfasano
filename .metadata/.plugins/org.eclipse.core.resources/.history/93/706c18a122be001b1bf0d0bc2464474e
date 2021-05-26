@@ -1,0 +1,35 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioWhile {
+
+	public static void main(String[] args) {
+		
+		String data_dia =JOptionPane.showInputDialog("Digite o dia:");
+		String data_mes =JOptionPane.showInputDialog("Digite o mes:");
+		String data_ano =JOptionPane.showInputDialog("Digite o ano:");
+		
+		while (data_dia.length()==0 || data_dia.length() >32) {
+		  System.out.println("Dia do Mês: " + data_dia);	
+		} while (data_mes.length()==0 || data_mes.length() >13) {
+			  System.out.println("Mês: " + data_mes);	
+			}
+		
+		
+		
+	}
+}
+
+
+/*
+ * Capturem separadamente: dia mes e ano
+ * 
+ * Para o dia somente será aceito aqtd de dias de acordo com o m^s (considere fevereiro somente com 29 dias)
+ * 
+ * Para o mês aceite somente valores entre 1 e 12
+ * 
+ * Para o ano aceite somente valores entre 2003  1920
+ * 
+ */
+

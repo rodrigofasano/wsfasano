@@ -1,0 +1,59 @@
+// Definição da Classe para DataTypes - Em uma classe encontramos: Métodos e Atributos
+   /*
+    * JVM é o interpretador do JAVA
+    * JRE é o ambiente de execução
+    * JDK é o ambiente para desenvolvimento Java
+    * 
+    * "public static void main(String[] args) {" O main() é a o start point de uma aplicação JAVA, é a chave de ingnição como de um carro
+    * 
+    */
+	
+
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposDados {
+	
+   public static void main(String[] args) {
+	// Sintaxe: <tipo de dado> <nome da variavel> = <dado>;
+	   
+    String nome =JOptionPane.showInputDialog("Digite o seu nome");
+    
+    int idade = Integer.parseInt(JOptionPane.showInputDialog("Digite sua idade"));
+             
+    double altura = Double.parseDouble(JOptionPane.showInputDialog("Digite sua altura"));
+    double peso = Double.parseDouble(JOptionPane.showInputDialog("Digite seu peso"));
+    double imc = peso / (altura * altura);
+    
+     		   
+    System.out.println("Nome................: "+ nome);
+    System.out.println("Idade...............: "+ idade);
+    System.out.println("Altura..............: "+ altura);
+    System.out.println("IMC.................: "+ imc);
+    System.out.println("Classificação do IMC: "+ imc);
+   
+    if (imc>=35) {
+    	System.out.println("Opá! Muito cuidado, você esta em obsidade Grau 3! Procure um médico, nutrologo ou nutricionista urgente!");
+    	
+    
+    
+	   
+    
+    
+	/* Representado no JAVA como: String (Texto)
+	 * Dado Alfanumérico: é um texto, parte de um texto ou um número que não será utilizado em operações matemáticas.
+	 * 
+	 * 
+	 * Dado Númerico: repesenta um  dado que pode ser utilizado em expressões matemáticas.
+	 * Representado no JAVA como: INT (Números inteiros) e DOUBLE (Casas decimais)
+	 * 
+	 */
+
+	   
+}
+	
+
+	
+	
+}
