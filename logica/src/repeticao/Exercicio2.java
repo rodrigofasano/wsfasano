@@ -28,6 +28,7 @@ public class Exercicio2 {
 		}while (JOptionPane.showConfirmDialog(null,  "Continuar?", "Pergunta", JOptionPane.YES_NO_OPTION)==0);
 		System.out.println("Olá " + nome + " com e-mail " + email + ", o total das suas compras é de: R$" + total_global);
 		
+		
 			
 		
 	}

@@ -9,14 +9,15 @@ public class Exercicio1 {
 		do {
 
 			int tabuada = Integer.parseInt(JOptionPane.showInputDialog("Digite um número que deseja ver os resultado"));
+			
 			int mult = 0;
 
 
 			do {
 				mult = mult+1;
-
-				System.out.println(tabuada + " X " + mult +" = " + (tabuada * mult));
-
+                
+                System.out.println(tabuada + " X " + mult +" = " + (tabuada * mult));
+                
 			}while(mult==0 || mult<100);
 
 
