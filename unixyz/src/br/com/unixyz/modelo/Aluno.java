@@ -6,18 +6,16 @@ public class Aluno {
 	private Endereco endereco;
 	
 	
-	
-	
-	
-	
 	public Aluno() {
 		super();
 	}
+	
 	public Aluno(int rm, Endereco endereco) {
 		super();
 		this.rm = rm;
 		this.endereco = endereco;
 	}
+	
 	@Override
 	public String toString() {
 		return "Aluno [rm=" + rm + ", endereco=" + endereco + "]";

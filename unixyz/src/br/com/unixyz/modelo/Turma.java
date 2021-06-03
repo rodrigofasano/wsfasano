@@ -9,12 +9,10 @@ public class Turma {
 	private Curso curso;
 	private Aluno aluno;
 	
-	
-	
-	
 	public Turma() {
 		super();
 	}
+	
 	public Turma(String sigla, String periodo, String sala, Professor professor, Curso curso, Aluno aluno) {
 		super();
 		this.sigla = sigla;
@@ -24,11 +22,13 @@ public class Turma {
 		this.curso = curso;
 		this.aluno = aluno;
 	}
+	
 	@Override
 	public String toString() {
 		return "Turma [sigla=" + sigla + ", periodo=" + periodo + ", sala=" + sala + ", professor=" + professor
 				+ ", curso=" + curso + ", aluno=" + aluno + "]";
 	}
+	
 	public String getSigla() {
 		return sigla;
 	}
@@ -65,6 +65,4 @@ public class Turma {
 	public void setAluno(Aluno aluno) {
 		this.aluno = aluno;
 	}
-	
-
 }

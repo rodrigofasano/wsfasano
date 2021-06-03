@@ -1,3 +1,14 @@
+/*
+ * Design Pattern: compilado de boas práticas para OO.
+ * DTO (Data Transfer Object) => é um pattern que indica as melhores práticas para
+ * a montagem de uma classe modelo (do Diagrama de Classe) na programação.
+ * - TODOS os atributos devem ser privados 
+ * - Cada atributo deve possuir INDIVIDUALMENTE um getter e um setter
+ * - ?????
+ * modelo = beans = JavaBeans = dto = to 
+ */
+
+
 package br.com.lojaregina.modelo;
 
 public class Cliente {
